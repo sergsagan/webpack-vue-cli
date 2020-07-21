@@ -1,0 +1,18 @@
+@mixin font($family: inherit, $weight: 400, $size: 24px, $style: normal) {
+  font-family: $family, sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+  font-style: $style;
+}
+@mixin flex($direction: row, $justify: center, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin background-image($url, $repeat: no-repeat, $size: contain, $position: center) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}

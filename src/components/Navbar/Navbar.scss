@@ -1,0 +1,5 @@
+@import '@/assets/scss/components/mixins.scss'; // импортируем натсройки миксинов
+
+.dropdown-content li > a > i {
+  margin-right: 15px;
+}
